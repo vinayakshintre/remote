@@ -1,0 +1,30 @@
+$ oksocial https://graph.facebook.com/1018032181661092/admins
+{
+  "data": [
+    {
+      "id": "796783270463511",
+      "name": "London Events, Concerts & Parties"
+    },
+    {
+      "id": "564808213723724",
+      "name": "Best Places in the UK"
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "Nzk2NzgzMjcwNDYzNTEx",
+      "after": "NTY0ODA4MjEzNzIzNzI0"
+    }
+  }
+}
+
+$ oksocial https://graph.facebook.com/1018032181661092?fields=name,description,parent_group,owner
+{
+  "name": "Winter Wonderland 2017",
+  "description": "Winter Wonderland, Hyde Park in London from 17 november!\n\nEvery year this massive Christmas event takes place in Hyde Park. Each year it is bigger with more rides etc.\n\nHyde Park Winter Wonderland is a spectacular festive event in the heart of the capital. For six weeks, London’s famous Hyde Park is transformed into a magical wonderland of winter festivities.\nIt’s FREE to enter so you can walk around at your leisure and soak up the atmosphere.\n\nWinter Wonderland offers a dazzling array of activities and entertainment. Enjoy skating around the UK’s largest open-air ice rink, have an arctic adventure in the Magical Ice Kingdom, see jaw-dropping circus shows, world-class ice dancing in The Nutcracker on Ice and see stunning views across London in the Giant Observation Wheel. There’s over 100 spectacular festive rides and attractions, London’s largest German-style Christmas Markets, plus a wealth of delicious food and mulled wine aplenty!\n\n► The entrance to Winter Wonderland is FREE\n\nTickets for Winter Wonderland attractions:\n► http://hydeparkwinterwonderland.com/\n\n Find things you could do in London: \n► http://tidd.ly/a4bdd6cb\n\nBook here your stay in London:\n► http://tidd.ly/d20e50cb\n\nCinderella on Ice Tickets:\n► http://tidd.ly/fb287a8c\n\nAll London event highlights:\n► www.facebook.com/london.events.concerts/",
+  "owner": {
+    "name": "Best Places in the UK",
+    "id": "564808213723724"
+  },
+  "id": "1018032181661092"
+}
